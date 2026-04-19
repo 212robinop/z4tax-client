@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "z4tax",
+  "version": "${version}",
+  "name": "Z4Tax Client",
+  "description": "A fire-themed Minecraft client mod with GUI, HUD, and performance modules.",
+  "authors": [
+    "Z4Tax"
+  ],
+  "contact": {
+    "homepage": "https://github.com/z4tax/z4tax-client",
+    "sources": "https://github.com/z4tax/z4tax-client"
+  },
+  "license": "MIT",
+  "icon": "assets/z4tax/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.z4tax.client.Z4TaxClient"
+    ]
+  },
+  "mixins": [
+    "z4tax.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
