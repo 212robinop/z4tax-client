@@ -24,7 +24,7 @@ public class FpsBoostModule extends Module {
 
         client.options.getParticles().setValue(ParticlesMode.MINIMAL);
         client.options.getEntityShadows().setValue(false);
-        client.options.getVsync().setValue(false);
+        client.options.getEnableVsync().setValue(false);
         client.options.getMaxFps().setValue(260);
     }
 
